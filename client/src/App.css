@@ -1,0 +1,39 @@
+.app-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.left-side{
+    width: 45%;
+}
+.right-side{
+    width: 55%;
+}
+.list-data{
+    color :#D9D6E5;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 7px;
+}
+select{
+    width: 40%;
+    height: 30px;
+    border-radius: 8px;
+    background: #000000;
+    color: white;
+    margin: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
